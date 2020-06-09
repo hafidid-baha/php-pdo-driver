@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #535c68;
+
+}
+/*
+* this is the Index main page
+* start
+*/
+.container{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+.container h2{
+    color: antiquewhite;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.container table{
+    width:80%;
+    text-align: center;
+    margin:0 auto;
+}
+.container table.maintable{
+    background-color: bisque;
+}
+.container table.maintable caption{
+    height:50px;
+    background-color: aquamarine;
+    font-size:20px;
+    font-family:Tahoma;
+    line-height: 2;
+    color: blueviolet;
+}
+.container table.maintable caption a{
+    color: darkorange;
+    cursor: pointer;
+    text-decoration: none;
+    border:1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+
+}
+.container table.maintable td,.container table.maintable th{
+    border-bottom: 1px solid #000;
+}
+.container table.maintable td{
+    color: darkcyan;
+    font-weight:bolder;
+}
+/*
+* the Index main page style
+* End of the Index dtyle
+*/
+/*******************************************************************************/
+/*
+* the AddNew User page style
+* start
+*/
+.container table.adduser td{
+    color:#fff;
+    font-weight: bolder;
+}
+.container table.adduser td input[type="text"],
+.container table.adduser td input[type="password"],
+.container table.adduser td input[type="email"]{
+    width:75%;
+    border:0;
+    border-radius: 5px;
+    height: 20px;
+}
+.container table.adduser td input[type="submit"]{
+    width:120px;
+    border:0;
+    height:25px;
+    background: #badc58;
+    color: #000;
+    cursor: pointer;
+    margin-top:50px;
+    font-weight:bolder ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
